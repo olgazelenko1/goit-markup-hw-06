@@ -58,12 +58,61 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu is-open">
+        <div class="container mobile-menu-container">
+          <button type="button" class="mobile-menu-close">
+            <svg class="icon-button" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-menu-nav-list">
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Portfolio</a>
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="nav-mobile-address">
+            <ul class="mobile-contacts-list">
+              <li class="mobile-contacts-item">
+                <a class="mobile-contacts-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mobile-contacts-item">
+                <a class="mobile-contacts-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="soc-mobile-list">
+            <li class="soc-mobile-link">ins</li>
+            <li class="soc-mobile-link">fac</li>
+            <li class="soc-mobile-link">tel</li>
+            <li class="soc-mobile-link">twi</li>
+          </ul>
+        </div>
       </div>
     </header>
 
     <!--------------------------------------------main info---------------------------------------------->
     <main>
-      <section class="solutions">
+      <section class="hidden" class="solutions">
         <div class="container header-solutions">
           <h1 class="header-solutions-title">
             Effective Solutions for Your Business
@@ -73,7 +122,7 @@
         </div>
       </section>
 
-      <section class="advantages">
+      <section class="hidden" class="advantages">
         <div class="container advantages-title">
           <h2 class="visually-hidden">Advantages</h2>
 
@@ -130,7 +179,7 @@
         </div>
       </section>
       <!-- -------------------------------------------section team--------------------------------------->
-      <section class="team">
+      <section class="hidden" class="team">
         <div class="container container-team">
           <h2 class="portfolio-header">Our Team</h2>
 
@@ -340,7 +389,7 @@
         </div>
       </section>
       <!-- -------------------------------------------section portfolio--------------------------------------->
-      <section class="portfolio">
+      <section class="hidden" class="portfolio">
         <div class="container portfolio-title">
           <h2 class="portfolio-header">Our Portfolio</h2>
 
@@ -467,7 +516,7 @@
 
     <!-- -------------------------------------------footer------------------------------------------------->
 
-    <footer class="footer">
+    <footer class="hidden" class="footer">
       <div class="container footer-container">
         <div class="footer-logo-container">
           <a class="logo footer-logo" href="./index.html"
@@ -542,7 +591,7 @@
 
     <!-- ---------------------------------------------------------------------------------------------------------------- -->
 
-    <div class="backdrop">
+    <div class="hidden" class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="icon-button" width="8" height="8">
