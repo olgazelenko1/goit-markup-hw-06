@@ -234,7 +234,7 @@ svg {
   color: #2e2f42;
   text-transform: capitalize;
 } */
-.team-header {
+/* .team-header {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -242,8 +242,8 @@ svg {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
-}
-.main-header-info {
+} */
+/* .main-header-info {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -254,8 +254,8 @@ svg {
   padding: 32px 0;
   border: 1px solid #e7e9fc;
   border-top: none;
-  text-align: center;
-}
+  text-align: center; */
+
 /* -------------------------------------------section team-------------------------------------- */
 /* .team {
   background-color: #f4f4fd;
