@@ -138,16 +138,16 @@ svg {
   display: flex;
   gap: 40px;
 } */
-.contacts-link {
+/* .contacts-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* -------------------------------------section solution-----------------------------------------------*/
-.solutions {
+/* .solutions {
   max-width: 1440px;
   margin: 0 auto;
   background-color: #2e2f42;
@@ -166,9 +166,9 @@ svg {
   background-size: cover;
   color: #fff;
   text-align: center;
-}
+} */
 
-.header-solutions-title {
+/* .header-solutions-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -177,8 +177,8 @@ svg {
   color: #fff;
   max-width: 496px;
   margin: 0 auto;
-}
-.button-name {
+} */
+/* .button-name {
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -193,14 +193,14 @@ svg {
   border: none;
   margin: 48px auto 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.button-name:hover,
+/* .button-name:hover,
 .button-name:focus {
   background-color: #404bbf;
-}
+} */
 
-.advantages {
+/* .advantages {
   max-width: 100%;
   padding: 120px 0;
 }
@@ -223,9 +223,18 @@ svg {
 }
 .advantages-list-first {
   width: calc((100% - 3 * 24px) / 4);
-}
-/* -------------------------------------------main settings----------------------------------------- */
-.main-header {
+} */
+-------------------------------------------main settings-----------------------------------------
+/* .main-header {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-transform: capitalize;
+} */
+.team-header {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -248,7 +257,7 @@ svg {
   text-align: center;
 }
 /* -------------------------------------------section team-------------------------------------- */
-.team {
+/* .team {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
@@ -291,10 +300,10 @@ svg {
   flex-direction: row;
 
   gap: 24px;
-}
-.icon-soc {
+} */
+/* .icon-soc {
   fill: #f4f4fd;
-}
+} */
 
 /* -------------------------------------------section portfolio-------------------------------------- */
 .portfolio {
@@ -530,7 +539,7 @@ svg {
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -100%);
 }
-.modal-close {
+/* .modal-close {
   border-radius: 50%;
   cursor: pointer;
   position: absolute;
@@ -561,7 +570,7 @@ svg {
 .modal-close:hover .icon-button,
 .modal-close:focus .icon-button {
   fill: #ffffff;
-}
+} */
 .modal-field {
   margin-bottom: 8px;
 }
