@@ -306,7 +306,7 @@ svg {
 } */
 
 /* -------------------------------------------section portfolio-------------------------------------- */
-.portfolio {
+/* .portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -367,9 +367,9 @@ svg {
   border: 1px solid #e7e9fc;
   border-top: none;
   text-align: left;
-}
+} */
 /*----------------------------------------------footer-------------------------------------------------------------*/
-.footer {
+/* .footer {
   background-color: #2e2f42;
   padding: 100px 0;
   letter-spacing: 0.02em;
@@ -394,7 +394,7 @@ svg {
 .footer-text {
   max-width: 264px;
   color: #f4f4fd;
-}
+} */
 
 .footer-social {
   width: 208px;
