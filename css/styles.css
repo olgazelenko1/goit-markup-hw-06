@@ -921,7 +921,7 @@ letter-spacing: 0.02em;
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -100%);
 }
-/* .modal-close {
+.modal-close {
   border-radius: 50%;
   cursor: pointer;
   position: absolute;
@@ -952,7 +952,7 @@ letter-spacing: 0.02em;
 .modal-close:hover .icon-button,
 .modal-close:focus .icon-button {
   fill: #ffffff;
-} */
+}
 .modal-field {
   margin-bottom: 8px;
 }
