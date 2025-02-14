@@ -585,7 +585,7 @@ gap: 74px;
   }
 
 
-/* @media screen and (min-width: 768px)and (max-width: 1157px) {
+@media screen and (min-width: 768px)and (max-width: 1157px) {
 .footer-container {
 column-gap: 24px;
 justify-content: flex-start;
@@ -593,7 +593,7 @@ padding-left: 108px;
 padding-right: 108px;
 
     }
-  } */
+  }
 @media screen and (min-width: 1158px) {
   .footer-container {
   display: flex;
@@ -616,6 +616,7 @@ justify-content: center;
 @media screen and (min-width: 1158px) {
   .footer-logo-container {
     margin-right: 120px;
+    justify-content:left;
   }
 }
 .logo-name {
@@ -663,7 +664,7 @@ justify-content: center;
 }
 @media screen and (min-width: 1158px) {
   .footer-social-text {
-    text-align:left;
+    text-align: left;
   }
 }
 .footer-soc-list {
@@ -720,10 +721,9 @@ justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .footer-reviuw {
-
+    margin: 0;
   }
 }
-
 
 .reviuw-input::placeholder {
   color: #ffffff;
@@ -927,9 +927,8 @@ letter-spacing: 0.02em;
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 288px;
+  max-width: 288px;
   min-height: 623px;
-
   border-radius: 4px;
   transform: translate(-50%, -50%);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -946,7 +945,7 @@ letter-spacing: 0.02em;
 @media screen and (min-width: 1158px) {
   .modal  {
     width: 408px;
-    min-height: 584px;
+    max-height: 584px;
   }
 }
 .backdrop:not(.is-open) .modal {
