@@ -169,6 +169,7 @@ margin-bottom: 8px;
 
 }
 .mobile-nav-link {
+  color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -184,6 +185,7 @@ flex-direction: column;
 gap: 24px;
 }
 .mobile-contacts-link {
+  color: #2e2f42;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -194,7 +196,6 @@ letter-spacing: 0.02em;
   flex-direction: row;
   align-items: center;
   gap: 40px;
-  /* margin-top: 48px; */
 }
 
 @media screen and (min-width: 768px) {
